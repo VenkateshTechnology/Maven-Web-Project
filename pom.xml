@@ -7,7 +7,7 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Web Project 22nd April</name>
+  <name>Maven Web Project 24nd April</name>
   <description>Maven Web Project for Java</description>
 
  <organization>
@@ -83,12 +83,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-releases/</url>
+	      <url>http://localhost:8081/repository/venkey_release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-snapshots</url>
+	      <url>http://localhost:8081/repository/venkey_snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
